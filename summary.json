@@ -1,0 +1,44 @@
+{
+  "period": "2026-10-01 to 2026-10-31",
+  "renewable_share_of_generation_pct": 59.8,
+  "avg_day_ahead_price_eur_mwh": 169.27,
+  "negative_price_15min_slots": 7,
+  "zero_or_negative_price_15min_slots": 71,
+  "share_reconciliation": {
+    "source_share_simple_mean_pct": 57.6,
+    "source_share_energy_weighted_pct": 60.9,
+    "my_share_energy_weighted_pct": 59.8,
+    "my_share_with_50pct_waste_as_renewable_pct": 60.9
+  },
+  "wind_vs_price": {
+    "daily_wind_vs_price_correlation": -0.82,
+    "lowest_daily_price": {
+      "date": "2026-10-25",
+      "price_eur_mwh": 13,
+      "wind_mw": 44482
+    },
+    "highest_daily_price": {
+      "date": "2026-10-29",
+      "price_eur_mwh": 315,
+      "wind_mw": 4196
+    }
+  },
+  "quality": [
+    {
+      "dataset": "generation",
+      "rows": 2980,
+      "time_step": "0 days 00:15:00",
+      "missing_timestamps": 0,
+      "missing_values": 0,
+      "outliers": 0
+    },
+    {
+      "dataset": "price",
+      "rows": 2980,
+      "time_step": "0 days 00:15:00",
+      "missing_timestamps": 0,
+      "missing_values": 0,
+      "outliers": 0
+    }
+  ]
+}
